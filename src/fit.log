@@ -1,0 +1,308 @@
+
+
+*******************************************************************************
+Sun Aug  7 17:47:04 2016
+
+
+FIT:    data read from "H10.dat" using 2:1
+        format = x:z
+        x range restricted to [1000.00 : 4697.70]
+        #datapoints = 259
+        residuals are weighted equally (unit weight)
+
+function used for fitting: HK(x)
+	HK(x)=a**(b*x+c)+d
+fitted parameters initialized with current variable values
+
+  11 1.1240580602e+02   0.00e+00  2.63e+08    1.001129e+00   1.271892e-01   1.000094e+00  -7.239574e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 112.406
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 255
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.663933
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.440807
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.00113          +/- 0.02429      (2.426%)
+b               = 0.127189         +/- 7.618        (5990%)
+c               = 1.00009          +/- 3.774e+04    (3.774e+06%)
+d               = -0.723957        +/- 43.24        (5972%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.999  1.000 
+c               0.997 -0.999  1.000 
+d              -0.996  0.999 -1.000  1.000 
+
+
+*******************************************************************************
+Sun Aug  7 17:47:04 2016
+
+
+FIT:    data read from "H10.dat" using 2:1
+        format = x:z
+        #datapoints = 288
+        residuals are weighted equally (unit weight)
+
+function used for fitting: H(x)
+	H(x)=e**(f*x+g)+h
+fitted parameters initialized with current variable values
+
+  15 1.1835579934e+02   0.00e+00  2.59e+09    9.996707e-01  -3.122085e-01   1.000125e+00  -4.939834e-01
+
+After 15 iterations the fit converged.
+final sum of squares of residuals : 118.356
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 284
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.645558
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.416746
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+e               = 0.999671         +/- 0.0129       (1.291%)
+f               = -0.312208        +/- 10.78        (3452%)
+g               = 1.00012          +/- 2.089e+05    (2.088e+07%)
+h               = -0.493983        +/- 68.47        (1.386e+04%)
+
+correlation matrix of the fit parameters:
+                e      f      g      h      
+e               1.000 
+f               0.994  1.000 
+g              -0.997 -0.999  1.000 
+h              -0.997 -0.999  1.000  1.000 
+
+
+*******************************************************************************
+Sun Aug  7 18:30:05 2016
+
+
+FIT:    data read from "H10.dat" using 2:1
+        format = x:z
+        x range restricted to [1000.00 : 4697.70]
+        #datapoints = 259
+        residuals are weighted equally (unit weight)
+
+function used for fitting: HK(x)
+	HK(x)=a**(b*x+c)+d
+fitted parameters initialized with current variable values
+
+  11 1.1240580602e+02   0.00e+00  2.63e+08    1.001129e+00   1.271892e-01   1.000094e+00  -7.239574e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 112.406
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 255
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.663933
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.440807
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.00113          +/- 0.02429      (2.426%)
+b               = 0.127189         +/- 7.618        (5990%)
+c               = 1.00009          +/- 3.774e+04    (3.774e+06%)
+d               = -0.723957        +/- 43.24        (5972%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.999  1.000 
+c               0.997 -0.999  1.000 
+d              -0.996  0.999 -1.000  1.000 
+
+
+*******************************************************************************
+Sun Aug  7 18:30:05 2016
+
+
+FIT:    data read from "H10.dat" using 2:1
+        format = x:z
+        #datapoints = 288
+        residuals are weighted equally (unit weight)
+
+function used for fitting: H(x)
+	H(x)=e**(f*x+g)+h
+fitted parameters initialized with current variable values
+
+  15 1.1835579934e+02   0.00e+00  2.59e+09    9.996707e-01  -3.122085e-01   1.000125e+00  -4.939834e-01
+
+After 15 iterations the fit converged.
+final sum of squares of residuals : 118.356
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 284
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.645558
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.416746
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+e               = 0.999671         +/- 0.0129       (1.291%)
+f               = -0.312208        +/- 10.78        (3452%)
+g               = 1.00012          +/- 2.089e+05    (2.088e+07%)
+h               = -0.493983        +/- 68.47        (1.386e+04%)
+
+correlation matrix of the fit parameters:
+                e      f      g      h      
+e               1.000 
+f               0.994  1.000 
+g              -0.997 -0.999  1.000 
+h              -0.997 -0.999  1.000  1.000 
+
+
+*******************************************************************************
+Sun Aug  7 18:42:40 2016
+
+
+FIT:    data read from "H10.dat" using 2:1
+        format = x:z
+        x range restricted to [1000.00 : 4697.70]
+        #datapoints = 259
+        residuals are weighted equally (unit weight)
+
+function used for fitting: HK(x)
+	HK(x)=a**(b*x+c)+d
+fitted parameters initialized with current variable values
+
+  11 1.1240580602e+02   0.00e+00  2.63e+08    1.001129e+00   1.271892e-01   1.000094e+00  -7.239574e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 112.406
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 255
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.663933
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.440807
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.00113          +/- 0.02429      (2.426%)
+b               = 0.127189         +/- 7.618        (5990%)
+c               = 1.00009          +/- 3.774e+04    (3.774e+06%)
+d               = -0.723957        +/- 43.24        (5972%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.999  1.000 
+c               0.997 -0.999  1.000 
+d              -0.996  0.999 -1.000  1.000 
+
+
+*******************************************************************************
+Sun Aug  7 18:42:40 2016
+
+
+FIT:    data read from "H10.dat" using 2:1
+        format = x:z
+        #datapoints = 288
+        residuals are weighted equally (unit weight)
+
+function used for fitting: H(x)
+	H(x)=e**(f*x+g)+h
+fitted parameters initialized with current variable values
+
+  15 1.1835579934e+02   0.00e+00  2.59e+09    9.996707e-01  -3.122085e-01   1.000125e+00  -4.939834e-01
+
+After 15 iterations the fit converged.
+final sum of squares of residuals : 118.356
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 284
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.645558
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.416746
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+e               = 0.999671         +/- 0.0129       (1.291%)
+f               = -0.312208        +/- 10.78        (3452%)
+g               = 1.00012          +/- 2.089e+05    (2.088e+07%)
+h               = -0.493983        +/- 68.47        (1.386e+04%)
+
+correlation matrix of the fit parameters:
+                e      f      g      h      
+e               1.000 
+f               0.994  1.000 
+g              -0.997 -0.999  1.000 
+h              -0.997 -0.999  1.000  1.000 
+
+
+*******************************************************************************
+Sun Aug  7 18:43:26 2016
+
+
+FIT:    data read from "H10.dat" using 2:1
+        format = x:z
+        x range restricted to [1000.00 : 4697.70]
+        #datapoints = 259
+        residuals are weighted equally (unit weight)
+
+function used for fitting: HK(x)
+	HK(x)=a**(b*x+c)+d
+fitted parameters initialized with current variable values
+
+  11 1.1240580602e+02   0.00e+00  2.63e+08    1.001129e+00   1.271892e-01   1.000094e+00  -7.239574e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 112.406
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 255
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.663933
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.440807
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.00113          +/- 0.02429      (2.426%)
+b               = 0.127189         +/- 7.618        (5990%)
+c               = 1.00009          +/- 3.774e+04    (3.774e+06%)
+d               = -0.723957        +/- 43.24        (5972%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.999  1.000 
+c               0.997 -0.999  1.000 
+d              -0.996  0.999 -1.000  1.000 
+
+
+*******************************************************************************
+Sun Aug  7 18:43:26 2016
+
+
+FIT:    data read from "H10.dat" using 2:1
+        format = x:z
+        #datapoints = 288
+        residuals are weighted equally (unit weight)
+
+function used for fitting: H(x)
+	H(x)=e**(f*x+g)+h
+fitted parameters initialized with current variable values
+
+  15 1.1835579934e+02   0.00e+00  2.59e+09    9.996707e-01  -3.122085e-01   1.000125e+00  -4.939834e-01
+
+After 15 iterations the fit converged.
+final sum of squares of residuals : 118.356
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 284
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.645558
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.416746
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+e               = 0.999671         +/- 0.0129       (1.291%)
+f               = -0.312208        +/- 10.78        (3452%)
+g               = 1.00012          +/- 2.089e+05    (2.088e+07%)
+h               = -0.493983        +/- 68.47        (1.386e+04%)
+
+correlation matrix of the fit parameters:
+                e      f      g      h      
+e               1.000 
+f               0.994  1.000 
+g              -0.997 -0.999  1.000 
+h              -0.997 -0.999  1.000  1.000 
