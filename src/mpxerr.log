@@ -1,0 +1,73 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=cslatex 2016.8.8)  10 AUG 2016 04:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**mpOsJYnw.tex
+(./mpOsJYnw.tex
+***** WARNING ******** CSLaTeX is obsolete, don't use it please *****
+***** You can use ``normal'' LaTeX+Babel or XeLaTeX+polyglossia *****
+Loading CZ hyphenation patterns: Pavel Sevecek, v3, 1995
+Loading SK hyphenation patterns: Jana Chlebikova, 1992
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+No file mpOsJYnw.aux.
+\openout1 = `mpOsJYnw.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+[1] [1] [1] [1] [1] [1] [1] [1] [1] [1] [1] [1] [1] [1] [1] [1] [1] [1]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 69.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 69.
+
+! Extra }, or forgotten $.
+\stopmpxshipout ->\egroup 
+                          \dimen 0=\ht 0 \advance \dimen 0\dp 0 \dimen 1=\ht...
+l.70 \stopmpxshipout
+                    
+? 
+! Emergency stop.
+\stopmpxshipout ->\egroup 
+                          \dimen 0=\ht 0 \advance \dimen 0\dp 0 \dimen 1=\ht...
+l.70 \stopmpxshipout
+                    
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 199 strings out of 494851
+ 2150 string characters out of 6179985
+ 47348 words of memory out of 5000000
+ 3672 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 24 hyphenation exceptions out of 8191
+ 23i,2n,17p,132b,64s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on mpOsJYnw.dvi (18 pages, 1348 bytes).

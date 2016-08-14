@@ -1,0 +1,74 @@
+\documentclass{article}
+\begin{document}
+
+\gdef\mpxshipout{\shipout\hbox\bgroup%
+  \setbox0=\hbox\bgroup}%
+\gdef\stopmpxshipout{\egroup  \dimen0=\ht0 \advance\dimen0\dp0
+  \dimen1=\ht0 \dimen2=\dp0
+  \setbox0=\hbox\bgroup
+    \box0
+    \ifnum\dimen0>0 \vrule width1sp height\dimen1 depth\dimen2 
+    \else \vrule width1sp height1sp depth0sp\relax
+    \fi\egroup
+  \ht0=0pt \dp0=0pt \box0 \egroup}
+\mpxshipout% line 127 ./5km.mp
+0.01%
+\stopmpxshipout
+\mpxshipout% line 148 ./5km.mp
+0.1%
+\stopmpxshipout
+\mpxshipout% line 169 ./5km.mp
+1%
+\stopmpxshipout
+\mpxshipout% line 190 ./5km.mp
+10%
+\stopmpxshipout
+\mpxshipout% line 195 ./5km.mp
+0%
+\stopmpxshipout
+\mpxshipout% line 200 ./5km.mp
+500%
+\stopmpxshipout
+\mpxshipout% line 205 ./5km.mp
+1000%
+\stopmpxshipout
+\mpxshipout% line 210 ./5km.mp
+1500%
+\stopmpxshipout
+\mpxshipout% line 215 ./5km.mp
+2000%
+\stopmpxshipout
+\mpxshipout% line 220 ./5km.mp
+2500%
+\stopmpxshipout
+\mpxshipout% line 225 ./5km.mp
+3000%
+\stopmpxshipout
+\mpxshipout% line 230 ./5km.mp
+3500%
+\stopmpxshipout
+\mpxshipout% line 235 ./5km.mp
+4000%
+\stopmpxshipout
+\mpxshipout% line 240 ./5km.mp
+4500%
+\stopmpxshipout
+\mpxshipout% line 245 ./5km.mp
+5000%
+\stopmpxshipout
+\mpxshipout% line 260 ./5km.mp
+H(x)%
+\stopmpxshipout
+\mpxshipout% line 289 ./5km.mp
+HK(x)%
+\stopmpxshipout
+\mpxshipout% line 318 ./5km.mp
+Liulin%
+\stopmpxshipout
+\mpxshipout% line 614 ./5km.mp
+"../data/EH10.dat" using 1:($2*1000)%
+\stopmpxshipout
+% line 678 ./5km.mp
+ \end{document}
+
+\end{document}
