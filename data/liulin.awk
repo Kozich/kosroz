@@ -57,7 +57,7 @@ $2 !~ /""/{
         if(ls < gs){
             break
         }
-        if(ls == gs){
+        if((ls == gs) && (LLa[2]!="")){
             print ls-TN FS LLa[2] FS En FS Ep FS Ep+En FS (En*1.22+Ep*6.18)
             break
         }
