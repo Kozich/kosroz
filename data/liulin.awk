@@ -46,7 +46,7 @@ $2 !~ /""/{
     En=lineEn()
     Ep=lineEp()
     if (ls == gs){
-        print ls-TN FS LLa[2] FS En FS Ep FS Ep+En FS (En*1.22+Ep*6.18)
+        print ls-TN FS LLa[2] FS En FS Ep FS Ep+En FS (En*1.22+Ep*6.18)/m
     }
     while(ls != gs){
         if(ls > gs){
@@ -58,7 +58,7 @@ $2 !~ /""/{
             break
         }
         if((ls == gs) && (LLa[2]!="")){
-            print ls-TN FS LLa[2] FS En FS Ep FS Ep+En FS (En*1.22+Ep*6.18)
+            print ls-TN FS LLa[2] FS En FS Ep FS Ep+En FS (En*1.22+Ep*6.18)/m
             break
         }
     }
