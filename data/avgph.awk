@@ -1,15 +1,14 @@
 BEGIN {
-    d=50
+    d=200
     a=0
     j=0
-    for (i;(i+2)*d<max;i++){
+    for (i=1;i<=NR/5+1;i++){
         getline
-        while ($1<(i+1)*d){
+        for (j=1;j<=5;j++){
             a+=$2
-            j++
             getline
         }
-        print (i+1)*d,a/j
+        print $1,a/j
         a=0
         j=0
     }

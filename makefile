@@ -1,6 +1,6 @@
 # Simple recursive makefile
 
-SUBDIRS=src tex
+SUBDIRS=data src tex
 
 .PHONY: $(SUBDIRS)
 
