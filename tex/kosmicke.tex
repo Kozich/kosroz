@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -143,22 +143,26 @@ $ "1 MeV" $, naopak $ D\_{neut} $ je celková dávka, kterou tam zanechaly
 Ve~většině případů jde o neutrony. Nakonec koeficienty
 $ k\_{low}="1.22" $ a $ k\_{neut}="6.18" $,~které převádí absorbovanou dávku
 na~prostorový dávkový ekvivalent.\par
+Počet částic absorbovaných nějakým tělesem je úměrný času vystavení. Proto je
+důležité si pro každou z těchto jednotek zavést náležitý výkon. Pro absorbovanou
+dávku to bude $ [\dot{D}]="1 Gy.s^{-1}" $ a pro dávkový ekvivalent
+$ [\dot{H}^\ast(10)]="1 Sv.s^{-1}" $. Ten bude pro tuto práci důležitější.
 \subsection*{Detector Liulin}
 Jde o jde o aktivní polovodičový detektor právě pro měření radiační zátěže.
 Původně byli detektory Liulin vyvíjeny na měření radiační záťěže na palubě
 kosmických lodí. Dnes hlavně slouží na měření radiační zátěže na palubě letadal
-a~u~stínění urychlovačů.\par Jak už bylo zmíňeno jde o aktivní polovodičový
-detektor. To znamená, že se vněm nachází aktivní objem křemíku, který zde
-funguje jako fotodioda pro vysoko energetické částice. Při zachycení %TODO
-V detektoru pracuje jako aktivní objem křemíková fotodioda o hmotnosti
-$m\_{Si}="1.398\cdot 10^{-4} kg"$. Při zachycení částice detektor
+a~u~stínění urychlovačů.\par
+Jak už bylo zmíňeno jde o aktivní polovodičový detektor. To znamená, že se
+něm nachází aktivní objem křemíku, který zde funguje jako fotodioda pro vysoko
+energetické částice. Tato dioda je zapojena v závěrném směru. Při zachycení
+částice v aktivním objemu detektoru v něm vznikne pár eletron-díry, které se
+následovně vybijí. Dle množství náboje lze vypočíst energii zachycené
+částice.\par
+Dle energie zachycené částice je detektor Liulin řadí do 256 kanálů. Každý kanál
+má rozsah $ "81.3 keV" $. Detektor pak zaznamenává počet částic za zběrný čas
+$ "10 s" $.
 %Představení detektoru
 \subsection*{Popis měření}
-Při měření kosmického záření jsme použili polovodičový detektor Liulin. Fotodioda zapojená v závěrném směru
-detekuje energii $ \overline{\epsilon} $ dopadajícího záření. Podle energie se v detektoru třídí dopady
-částic a jejich počet se zaznamenává do jednoho z 256 kanálů. Detektor je zkalibrován tak, že šířka jednoho
-kanálu je $"81,3 keV"$. Zjistili jsme, kolik kterých částic s danou energií jsme zaznamenali pomocí detektoru a
-ásledně určili celkovou deponovanou energii v objemu detektoru.\par
 Další veličinou, kterou jsme určovali, byla absorbovaná dávka $D$. Ta se spočítá jako celková deponovaná
 energie částic v detektoru ku celkové hmotnosti křemíkové části detektoru, který právě zachytává částice.
 Hmotnost křemíku v detektoru Liulin je výrobcem udaných $m\_{Si}="1.398\cdot 10^{-4} kg"$.\par
