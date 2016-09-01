@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -89,6 +89,7 @@ vzníkájí částice, které sekundární záření tvoří. Jde o neutrony, pi
 pozitrony~a~malé množství vysokoenergetických protonů. Všechny tyto částice
 můžeme taktéž rozdělit na měkkou a tvrdou složku sekundárního kosmického
 záření.\par
+%TODO
 \subsection*{Šíření kosmického záření}
 Na počet většinová složka primárního záření je nějak nabitá. Díky nemalému
 magnetickému poli náležící Zemi na ně působí Lorenzova síla. Ta jejich
@@ -127,12 +128,15 @@ je Sievert ${[H]="1 Sv"}$. Pokud by váš organismus absorboval dávkový ekviva
 v jednotkách sievertů,~pak by taková dávka pro vás byla fatální. Krátkodobé
 dozimetrie jako je kupříkladu tato se často zabývají pouze dávkami v řádech
 $ "\mu Sv" $ či $ "mSv" $.\par
-Efektivní dávka se nedá opravdu měřit, proto se definuje prostorový dávkový
-ekvivalent $ H^\ast(10) $. Ten udává efektivní dávku způsobenou zářením v kouli
-aproximující lidské tělo (standartní ICRU = norma) v hloubce $"10 mm"$ tkáně.
-Pro námi použitý detektor Liulin se tato hodnota počítá jako
+Efektivní dávka samotná opravdu měřit nedá, protože vychází pouze z odhadů na
+množství absorbované dávky. Pro odhad efektivní dávky na organismus v jistém
+prostředí se zavádí dávkový ekvivalent H. Ten se zavádí více spůsoby. Zde
+bude použit konkrétně dávkový ekvivalent $ H^\ast(10) $. Ten udává efektivní
+dávku způsobenou zářením v kouli aproximující lidské tělo v hloubce
+$"10 mm"$ tkáně. Náš detektor byl kalibrovaný tak, že jsme tuto hodnotu byli
+schopni spočítat jako
 $$H^\ast(10)=k\_{low}D\_{low}+k\_{neut}D\_{neut}\,,$$
-de $D\_{low}$ je celková deponovaná dávka nízkoenergetických částic.
+kde $D\_{low}$ je celková deponovaná dávka nízkoenergetických částic.
 Nízkoenergetické částice jsou ty, které v detektoru zanechaly energii menší než
 $ "1 MeV" $, naopak $ D\_{neut} $ je celková dávka, kterou tam zanechaly
 částice,~které samotné v detektoru zanechaly energii větší než $ "1 MeV" $.
